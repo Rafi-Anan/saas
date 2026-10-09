@@ -1,0 +1,22 @@
+{
+  "name": "h2r-commerce-api",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.10.1",
+    "multer": "^2.4.0",
+    "nodemailer": "^10.0.16"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
